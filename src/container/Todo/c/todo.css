@@ -1,0 +1,70 @@
+body{
+    background: #f1f1f1b8;
+}
+.app {
+    margin: 3% 20% 3% 20%;
+}
+.input-body {
+    width: 100%;
+    display: inline-flex;
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+        padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 8px;
+    cursor: pointer;
+}
+
+.table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+.table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+.table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.table tr:nth-child(even){background-color: #fff;}
+
+
+.table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+thead tr{
+    background: #12948e;
+    color: #fff;
+}
+
+td a{
+    color: #188ef5;
+    cursor: pointer;
+}
+.todo-heading {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: #4caf50;
+}
